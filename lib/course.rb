@@ -1,4 +1,4 @@
-class Courserspec
+class Course
   attr_accessor :title, :schedule, :description
 
   @@all = []
@@ -14,5 +14,5 @@ class Courserspec
   def self.reset_all
     @@all.clear
   end
-  
+
 end
