@@ -6,7 +6,7 @@ class Courserspec
   def initialize
     @@all << self
   end
-    
+
   def self.all?
     @@all
   end
@@ -14,4 +14,5 @@ class Courserspec
   def self.reset_all
     @@all.clear
   end
+  
 end
