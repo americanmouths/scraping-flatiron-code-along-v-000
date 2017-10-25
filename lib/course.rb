@@ -1,3 +1,3 @@
 class Courserspec
-  attr_accessors :title, :schedule, :description
+  attr_accessor :title, :schedule, :description
 end
